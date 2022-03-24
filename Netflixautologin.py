@@ -1,7 +1,7 @@
 from selenium import webdriver
 
 def selenium_test():
-    Chrome_driver = 'C:/chromedriver.exe'
+    Chrome_driver = 'C:/chromedriver.exe' ## Input Your Chromedriver Path
     driver = webdriver.Chrome(Chrome_driver)
     url = 'https://www.netflix.com/kr/login'
     driver.get(url)
